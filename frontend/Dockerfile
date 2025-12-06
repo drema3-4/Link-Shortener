@@ -1,9 +1,9 @@
 FROM node:alpine as build
 
 COPY package.json package.json
-RUN pnpm install
+RUN npm install
 COPY . .
-RUN pnpm run build
+RUN npm run build
 
 FROM nginx:stable-alpine
 
