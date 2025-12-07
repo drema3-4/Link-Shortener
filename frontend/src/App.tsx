@@ -1,5 +1,5 @@
 import { createRoot } from 'react-dom/client'
-import { CreateLinkPage } from "./pages/CreateLinkPage"
+import { HeartSpinnerPage } from "./pages/ShutkaPage"
 
 createRoot(document.getElementById('root')!).render(
     <App />
@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-        <CreateLinkPage/>
+        <HeartSpinnerPage/>
     </>
   )
 }
